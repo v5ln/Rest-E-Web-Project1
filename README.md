@@ -15,6 +15,12 @@ The competitive sites we have chosen to analyze  is :
     - 9 links have no text describing their destination
     - No images have defined sizes.
 
+3. __[trulia](https://www.trulia.com/)__
+    - Most images (74.0%) don't have defined sizes using width and height attributes in the HTML.
+    - 3 links have no text describing their destination.
+    - 9 images are being stretched in the browser.
+    - Find the tap targets that are too small, their size in pixels, and the overlapping target that is too close to be easily clicked.
+
 The most important site that made us do this site is Facebook.
 Most companies and __**Real Estate**__ establish pages on Facebook and communicate with the customer through it, but it is not an official way to sell, for example, homes, so we resorted to this idea... A site specialized in selling homes and renting student dormitories will be a very good alternative For widespread and unofficial Facebook pages in companies.
 
