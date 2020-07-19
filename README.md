@@ -69,6 +69,9 @@ After analyzing many sites, it is time to answer the question ... Why Us? Basica
 > We used these sites to analyze competing websites __[nibbler](https://nibbler.silktide.com/en_US)__ and __[woorank](https://www.woorank.com/)__.
 
 ## Who Are Our Clients?
+The potential customers for our project are people who want to sell/lease houses/apartments,
+ the houses can be bought by anyone using the website and the apartment can be rented only by students. 
+
 ![client1](image/temp1.png)
 
 ![client2](image/temp2.png)
