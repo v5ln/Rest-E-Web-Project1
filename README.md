@@ -1,7 +1,7 @@
 # REST-E
 ## Who Are We?
 
-Rest-E is an online platform specializing in residential property
+__Rest-E__ is an online platform specializing in residential property
 services, which aims to make it easier for all to buy. sell, or rent
 residential real-estate through our easy-to-use online website
 services.
@@ -14,7 +14,7 @@ suit each of the aforementioned group's needs respectively.
 Our services provide simplicity, making it much easier and safer to
 buy or rent a house, bypassing all sale contracts through a forum
 which has the full details of the retailer or renter to provide
-authentic credentials proving the ownership of the real-estate.
+authentic credentials proving the ownership of the *Real-Estate*.
 
 The provided services also include the ability to browse available
 residential property freely and easily through our website,
@@ -49,7 +49,7 @@ The competitive sites we have chosen to analyze  is :
     - Find the tap targets that are too small, their size in pixels, and the overlapping target that is too close to be easily clicked.
 
 The most important site that made us do this site is Facebook.
-Most companies and __**Real Estate**__ establish pages on Facebook and communicate with the customer through it, but it is not an official way to sell, for example, homes, so we resorted to this idea... A site specialized in selling homes and renting student dormitories will be a very good alternative For widespread and unofficial Facebook pages in companies.
+Most companies and *Real-Estate* establish pages on Facebook and communicate with the customer through it, but it is not an official way to sell, for example, homes, so we resorted to this idea... A site specialized in selling homes and renting student dormitories will be a very good alternative For widespread and unofficial Facebook pages in companies.
 
 ##### One More Thing...
 After analyzing many sites, it is time to answer the question ... Why Us? Basically, the analysis that we did helped us to know the weaknesses of our competitors and avoid them until we top the first position among companies .. We also noted that the most common weaknesses were in the use of the CSS and the size of the images inside it. Also the use of heading in all the pages of the sites as there are links that did not Be under the excellent standard of SEO... In the end, we must note that the staff working on this site are trained on what excellent sites like CSS, HTML, JS need ... Dear customer after implementing the site you will not regret dealing with us because we found to implement what you requested at the best Condition.
