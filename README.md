@@ -51,6 +51,16 @@ The competitive sites we have chosen to analyze  is :
 The most important site that made us do this site is Facebook.
 Most companies and *Real-Estate* establish pages on Facebook and communicate with the customer through it, but it is not an official way to sell, for example, homes, so we resorted to this idea... A site specialized in selling homes and renting student dormitories will be a very good alternative For widespread and unofficial Facebook pages in companies.
 
+##### Our Features
+
+|User interface|Front-End Dev|
+|---	|---	|
+|A secure feeling|Use HTML,CSS,JS in a professional way|
+|An easy shopping experience.|improved with SEO|
+|Interact with the customer|Use effective call-to-action buttons|
+|The content is arranged in a way that facilitates the client's reaching his goal|Custom 404 Error Page|
+|Attracts the customer|Response Web Design|
+
 ##### One More Thing...
 After analyzing many sites, it is time to answer the question ... Why Us? Basically, the analysis that we did helped us to know the weaknesses of our competitors and avoid them until we top the first position among companies .. We also noted that the most common weaknesses were in the use of the CSS and the size of the images inside it. Also the use of heading in all the pages of the sites as there are links that did not Be under the excellent standard of SEO... In the end, we must note that the staff working on this site are trained on what excellent sites like CSS, HTML, JS need ... Dear customer after implementing the site you will not regret dealing with us because we found to implement what you requested at the best Condition.
 
