@@ -1,5 +1,32 @@
 # REST-E
 ## Who Are We?
+
+Rest-E is an online platform specializing in residential property
+services, which aims to make it easier for all to buy. sell, or rent
+residential real-estate through our easy-to-use online website
+services.
+
+Currently based in Nablus, our continuously-growing platform is
+dedicated to serving buyers, sellers, renters, and even university¬
+hostel owners, as the provided services are neatly-categorized to
+suit each of the aforementioned group's needs respectively.
+
+Our services provide simplicity, making it much easier and safer to
+buy or rent a house, bypassing all sale contracts through a forum
+which has the full details of the retailer or renter to provide
+authentic credentials proving the ownership of the real-estate.
+
+The provided services also include the ability to browse available
+residential property freely and easily through our website,
+allowing the user to choose from a large library of rental or for-
+sale houses with various price-tags and different settings, and
+
+Finally providing them with the required information regarding the
+retailer/renter and the various communication addresses.
+
+Our platform supports the different payment methods, whether it's
+indirect transfer, Visa card, or in cash.
+
 ## Why Us?
 
 The competitive sites we have chosen to analyze  is : 
