@@ -80,6 +80,47 @@ The potential customers for our project are people who want to sell/lease houses
 
 ## What it's Look Like?
 
+The site contains ten pages, the first is the main page, and contains three sections: header, body, footer,
+The header is the same in ten pages
+On the left side, the head contains the website logo and the name of the website, and a short sentence about the website.
+It also contains buttons on the right that are represented in the home page button and when you click on it you will be taken to the main page, a button of who we are and when you click on it you will be taken to the section of who we are on the main page, the Facebook button and when you click on it you will be taken to the site’s account on Facebook, Twitter button and when you click on it you will be taken to the site's account on Twitter, and the login and registration buttons on the site and when you click on any of them you will be taken to each page
+The body contains a picture with welcome writing of the site, it also contains three buttons represented in pictures and texts, and these buttons when you click on each of them are moved to the content and what is meant by the images and texts,
+The body also contains a section of who we are to be moved to if the dedicated button on the head is pressed
+The footer contains pictures of the houses available on the site and when you click on any of them you will be taken to the home page announced on the site.
+
+
+The second page is the login page and contains the unified header on all pages, it also contains an image as the background of the page, and contains a login form that consists of the user name or e-mail, the password, and an access button after filling in the information, or it is possible to log in with Facebook Or Google if they were previously linked to the site.
+
+
+The third page is the account creation page and it contains the unified header on all pages, it also contains an image as the background of the page, and contains an account creation form that contains the first name and last name, password creation, email, mobile number, and the account creation button to provide this information.
+
+
+
+The fourth page is the page for creating an advertisement for sale and it contains the unified header on all pages, it also contains an image as the background for the page, and it contains an ad creation form that contains the basic information of the house to be sold
+It also contains a form containing information about the advertiser, and a button for providing advertisement information.
+
+
+The fifth page is the purchase page and contains the unified header in all pages, and also contains two sections: The first section: contains a picture as the background of the site and contains two texts
+The second section: It contains a color background, it also contains a form in which the buyer puts the information of the house he wants to buy and a search button that provides home information,
+It also contains the most recent announcements section, which contains a picture and preliminary information about the house, and when you click on any of them you will be taken to the home page and show more information about the house in it.
+
+
+The sixth page is the home page of the chosen house and pressed to show information about it, and it contains the unified header on all pages,
+It contains the home address, home information, information about the person who announced the home, as well as photos of the home.
+
+_And also on the seventh page._
+
+
+The eighth page is the rental page and contains the unified header in all the pages. It also contains two sections: The first section: It contains a picture as the background of the site and contains text
+The second section: It contains a color background, it also contains a form in which the tenant places the apartment information he wants to rent and a search button that provides the apartment information,
+It also contains the most recent announcements section, which contains a picture and preliminary information about the apartment, and when you click on any of them you will be taken to the pages of the apartments, where information about the apartment and information about the advertiser.
+
+The ninth page is the home page of the apartment that was chosen and pressed to show information about it, and it contains the unified header on all pages,
+It contains the title of the apartment, apartment information, information about the person who announced the apartment, as well as photos of the apartment.
+
+_And also the tenth page._
+
+
 ![page1](image/1.png)
 
 ![page2](image/2.png)
