@@ -77,3 +77,26 @@ The potential customers for our project are people who want to sell/lease houses
 ![client2](image/temp2.png)
 
 ![client3](image/temp3.png)
+
+## What it's Look Like?
+
+![page1](image/1.png)
+
+![page2](image/2.png)
+
+![page3](image/3.png)
+
+![page4](image/4.png)
+
+![page5](image/5.png)
+
+![page6](image/6.png)
+
+![page7](image/7.png)
+
+![page8](image/8.png)
+
+![page9](image/9.png)
+
+![page10](image/10.png)
+
