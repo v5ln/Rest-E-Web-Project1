@@ -1,0 +1,21 @@
+.navbar-light, .bg-light{
+    background-color: rgba(204, 229, 255, 0.6) !important;
+}
+.navbar-nav > li{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.navbar-nav > li > a{
+    color: #555555 !important;
+    text-align: center;
+}
+.navbar-nav > li:hover{
+    background-color: #a5b9ca;
+    border-radius: 7px;
+}
+.jumbotron{
+    background-image: url("../image/ar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: azure;
+}
