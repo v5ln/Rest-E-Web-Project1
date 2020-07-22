@@ -1,11 +1,12 @@
-.navbar-light, .bg-light{
-    background-color: rgba(204, 229, 255, 0.6) !important;
+.navbar-light, .bg-light ,#dropdownMenuButton {
+    background-color: rgba(204, 229, 255, 1) !important;
+    border: none;
 }
 .navbar-nav > li{
     padding-left: 35px;
     padding-right: 35px;
 }
-.navbar-nav > li > a{
+.navbar-nav > li > a , #dropdownMenuButton{
     color: #555555 !important;
     text-align: center;
 }
@@ -18,4 +19,14 @@
     background-repeat: no-repeat;
     background-size: 100%;
     color: azure;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
 }
