@@ -1,24 +1,20 @@
-.navbar-light, .bg-light ,#dropdownMenuButton {
-    background-color: rgba(204, 229, 255, 1) !important;
+.navbar-light, .bg-light ,#dropdownMenuButton , .dropdown-menu{
+    background-color: rgba(204, 229, 255, 0) !important;
     border: none;
 }
-.navbar-nav > li{
+.navbar-nav > li {
     padding-left: 35px;
     padding-right: 35px;
 }
-.navbar-nav > li > a , #dropdownMenuButton{
+.navbar-nav > li > a , #dropdownMenuButton ,.dropdown-item {
     color: #555555 !important;
-    text-align: center;
+
 }
 .navbar-nav > li:hover{
-    background-color: #a5b9ca;
-    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0);
 }
-.jumbotron{
-    background-image: url("../image/ar.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: azure;
+.navbar-nav > li > a:hover {
+    color: #C1A583 !important;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -29,4 +25,26 @@
 .dropdown>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
+}
+.dropdown-item:hover{
+    background-color: rgba(0, 0,0, 0);
+    color: #C1A583 !important;
+}
+#logo > img{
+    height: 70px;
+    display: block;
+}
+#body{
+    background-image: url("../image/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#block{
+    opacity: 0;
+}
+.jumbotron{
+    background-color: #2B2B2B;
+    background-size: 100%;
+    color: azure;
 }
