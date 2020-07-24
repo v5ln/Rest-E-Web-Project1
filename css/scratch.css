@@ -77,3 +77,13 @@
     font-size: large;
     color: #C5B095;
 }
+.backg{
+  background-image: url("../image/ai.jpg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+#formh1
+{
+  margin-top:10%;
+  font-family:Bookman, serif;
+}
