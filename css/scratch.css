@@ -1,23 +1,26 @@
 .navbar-light, .bg-light {
-    background-color: rgba(85, 89, 92, 0.18) !important;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-color: #2B2B2B !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .navbar-nav > li {
     padding-left: 35px;
     padding-right: 35px;
 }
 .navbar-nav > li > a {
-    color: #555555 !important;
+    color: #595959 !important;
+    transition: transform .35s;
 }
 .navbar-nav > li:hover{
     background-color: rgba(0, 0, 0, 0);
 }
 .navbar-nav > li > a:hover {
     color: #C1A583 !important;
+    transform: scale(1.05);
+
 }
 #logo > img{
-    height: 90px;
+    height: 3.2em;
     display: block;
 }
 #body{
@@ -27,7 +30,7 @@
 }
 .block > p{
     opacity: 0;
-    height: 21.5em;
+    height: 35em;
 }
 .jumbotron{
     background-color: #2B2B2B;
@@ -214,8 +217,8 @@
 #formh1
 {
   font-family: Georgia, serif;
-  font-size: 45px;
-  margin-left: 195px;
+
+  text-align: center;
   color:#E5AC8B;
 
   text-shadow: 2px 2px #424949 ;
