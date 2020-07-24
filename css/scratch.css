@@ -222,10 +222,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+ background-size: cover;
+    background-attachment: fixed;
+
 }
 #formh1
 {
-  margin-top:10%;
+  margin-top:1%;
   font-family:Bookman, serif;
 }
 #sp{
@@ -236,6 +239,9 @@
 }
 #sp3{
     margin-left: 25px;
+  margin-left: 25px;
+
+
 }
 .formm{
     position:relative;
