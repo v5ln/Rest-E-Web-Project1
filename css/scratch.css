@@ -22,8 +22,7 @@
 }
 #body{
     background-image: url("../image/bg.png");
-    background-repeat: repeat-y;
-    background-size: 130%;
+    background-size: cover;
     background-attachment: fixed;
 }
 .block > p{
@@ -230,4 +229,3 @@
     color: white;
     margin-top: 30px;
 }
-
