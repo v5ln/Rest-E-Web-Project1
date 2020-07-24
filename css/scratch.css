@@ -1,5 +1,11 @@
-.navbar-light, .bg-light ,#dropdownMenuButton , .dropdown-menu{
-    background-color: rgba(204, 229, 255, 0) !important;
+.navbar-light, .bg-light {
+    background-color: rgba(85, 89, 92, 0.18) !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+#dropdownMenuButton , .dropdown-menu{
+    background-color: rgba(85, 89, 92, 0) !important;
     border: none;
 }
 .navbar-nav > li {
@@ -30,7 +36,7 @@
     color: #C1A583 !important;
 }
 #logo > img{
-    height: 70px;
+    height: 90px;
     display: block;
 }
 #body{
