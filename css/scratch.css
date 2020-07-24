@@ -226,28 +226,6 @@
 
 }
 
-.btn {
-margin: 10px;
-padding: 30px;
-width: 500px;
-text-align: center;
-text-transform: uppercase;
-background-size: 150% auto;
-color: black;
-box-shadow: 0 0 20px #424949;
-border-radius: 10px;
-margin-left: 85px;
-font-size: 30px;
-}
-
-.btn:hover {
-background-position: right center;
-}
-
-.btn-1 {
-background-image: linear-gradient(to right, #8c5a3d 0%,#ebbca1 51%,#8c5a3d 100%);
-}
-
   #adv{
   background: rgb(221,176,150);
 
@@ -265,4 +243,7 @@ background-image: linear-gradient(to right, #8c5a3d 0%,#ebbca1 51%,#8c5a3d 100%)
 .fa-facebook,.fa-twitter,.fa-instagram {
     color: #2B2B2B !important;
     transition: transform .35s;
+}
+body{
+    font-family: 'Oswald', sans-serif ;
 }
