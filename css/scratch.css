@@ -216,6 +216,7 @@
 }
 #formh1
 {
+
   font-family: Georgia, serif;
 
   text-align: center;
@@ -224,7 +225,22 @@
   text-shadow: 2px 2px #424949 ;
 
 }
+#butt{
+  background-color: #E5AC8B;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-size: 16px;
+  
+  }
+  #adv{
+  background: rgb(221,176,150);
+background: linear-gradient(90deg, rgba(221,176,150,1) 0%, rgba(158,125,88,1) 54%, rgba(230,180,151,1) 100%);
 
+  color: black;
+  padding-left: 100px;
+  font-size: 40px;
+}
 .formm{
     position:relative;
     background: rgba(43, 43, 43, 0.85);
