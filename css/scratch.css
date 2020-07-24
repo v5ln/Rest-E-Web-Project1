@@ -3,15 +3,11 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-#dropdownMenuButton , .dropdown-menu{
-    background-color: rgba(85, 89, 92, 0) !important;
-    border: none;
-}
 .navbar-nav > li {
     padding-left: 35px;
     padding-right: 35px;
 }
-.navbar-nav > li > a , #dropdownMenuButton ,.dropdown-item {
+.navbar-nav > li > a {
     color: #555555 !important;
 }
 .navbar-nav > li:hover{
@@ -20,29 +16,19 @@
 .navbar-nav > li > a:hover {
     color: #C1A583 !important;
 }
-.dropdown:hover>.dropdown-menu {
-    display: block;
-}
-.dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-}
-.dropdown-item:hover{
-    background-color: rgba(0, 0,0, 0);
-    color: #C1A583 !important;
-}
 #logo > img{
     height: 90px;
     display: block;
 }
 #body{
     background-image: url("../image/bg.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-size: 130%;
     background-attachment: fixed;
 }
-#block{
+.block > p{
     opacity: 0;
+    height: 21.5em;
 }
 .jumbotron{
     background-color: #2B2B2B;
