@@ -225,17 +225,31 @@
   text-shadow: 2px 2px #424949 ;
 
 }
-#butt{
-  background-color: #E5AC8B;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    font-size: 16px;
-  
-  }
+
+.btn {
+margin: 10px;
+padding: 30px;
+width: 500px;
+text-align: center;
+text-transform: uppercase;
+background-size: 150% auto;
+color: black;
+box-shadow: 0 0 20px #424949;
+border-radius: 10px;
+margin-left: 85px;
+font-size: 30px;
+}
+
+.btn:hover {
+background-position: right center;
+}
+
+.btn-1 {
+background-image: linear-gradient(to right, #8c5a3d 0%,#ebbca1 51%,#8c5a3d 100%);
+}
+
   #adv{
   background: rgb(221,176,150);
-background: linear-gradient(90deg, rgba(221,176,150,1) 0%, rgba(158,125,88,1) 54%, rgba(230,180,151,1) 100%);
 
   color: black;
   padding-left: 100px;
