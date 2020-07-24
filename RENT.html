@@ -54,44 +54,41 @@
     color: #C5B095;
 }
 .back {
-	background-color : rgba(21, 85, 112,0.6) ;
+	background-color : rgba(85,89,92,0.7) ;
 	height: 225px ;
     width : 600px;
     margin-left: 40px;
     padding :20px;
-    color : #FDA815 ;
-
+    color : #E5AC8B ;
+border-radius:4px;
 }
 .back1 {
-	background-color : rgba(21, 85, 112,0.6) ;
-	margin-right: 40px;
+	background-color : rgba(85,89,92,0.7) ;
 	height: 260px ;
     width : 600px;
-	position:relative;
-	top:350px;
-	left:700px;
 	padding :20px;
-	
+	margin-bottom:30px;
+	border-radius:4px;
 }
 .hrent1{
 	line-height: 1.5;
 	letter-spacing: 2px;
 	text-transform: capitalize;
 	 font-family: "Times New Roman";
-	 color : #FDA815 ;
+	 color : #E5AC8B ;
 }
 .hrent{
 	 line-height: 2;
 	letter-spacing: 3px;
 	text-transform: capitalize;
 	 font-family: "Times New Roman";
-	 color : #FDA815 ;
+	 color : #E5AC8B;
 }
 #titler{
 	letter-spacing: 3px;
 	text-transform: capitalize;
 	 font-family: "Times New Roman";
-	color : #FDA815 ;
+	color : #E5AC8B;
 	font-size: 40px;
 }
 .astric{
@@ -104,15 +101,17 @@
 	
 }
 .tr1{
-	background-color: rgba(253,171,30,0.6);
-	text-align: center ;
+	background-color: rgba(229,172,139,0.8);
+	text-align: center ; 
 }
 .tr2{
 	height:70px ;
 	
 }
+
+
 .inputs{
-	background-color: rgba(253,171,30,0.6);
+	background-color: rgba(229,172,139,0.8);
 	position : relative;
 	left : 50% ;
 	color : white;
@@ -120,6 +119,7 @@
 }
 #card1{
 	background-color:#09709C;
+	height:200px;
 }
 .card-title1  {
 	letter-spacing: 3px;
@@ -129,21 +129,6 @@
 }
 .card-texts .text-muted{
 	color:white;
-}
-#card3{
-	float:right;
-	position:relative ;
-	top:-510px; 
-	background-color:#09709C;
-	height:200px;
-	
-	
-}
-#card4{
-	position: relative;
-	left:750px;
-	top:-290px;
-	background-color:#09709C;
 }
 
 	</style>
@@ -184,13 +169,29 @@
 	<!--a!-->
 	
 	
+	<div class="container">
+  <div class="row">
+    <div class="col">
 	<div class = "back "><h1 class = "hrent">Now with <i>REST-E</i> find the<br> right apartment for rent </h1></div>
-    <div class = "back1 "><h2 class = "hrent1">Student ? Employee ? do you have a family ? Do you want to be independent and live on your own?
+	</div>
+    <div class="col">
+	</div>
+  </div>
+</div><br><br>
+
+	
+	<div class="block"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+	<div class="container">
+  <div class="row">
+    <div class="col">
+	</div>
+    <div class="col">
+	 <div class = "back1 "><h2 class = "hrent1">Student ? Employee ? do you have a family ? Do you want to be independent and live on your own?
 Find the right apartment for you.</h2></div>
+	</div>
+  </div>
+</div>
 	
-	
-	
-	<img src="image/AE.jpg" size="100%" style="opacity: 0" id="block">
         <div class="jumbotron">
             <p  id="titler">Find the apartment for you to rent</p><br>
 			<p class ="astric"> * Fill out the search form (filter) with information about the apartment to be rented</p><br><br>
@@ -247,7 +248,12 @@ Find the right apartment for you.</h2></div>
 </section>
 <br><br><br>
 
-<div class="card mb-3" style="max-width: 540px;"id="card1">
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+	<div class="card mb-3" style="max-width: 540px;"id="card1">
   <div class="row no-gutters">
     <div class="col-md-4">
       <img src="image/al.jpg" class="card-img" height="200px" >
@@ -261,11 +267,13 @@ Find the right apartment for you.</h2></div>
     </div>
   </div>
 </div> <br>
-
-<div class="card mb-3" style="max-width: 540px;"id="card1">
+	</div>
+	
+    <div class="col">
+	<div class="card mb-3" style="max-width: 540px;"id="card1">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="image/ax.jpg" class="card-img" height="230px" >
+      <img src="image/ax.jpg" class="card-img" height="200px" >
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -276,8 +284,10 @@ Find the right apartment for you.</h2></div>
     </div>
   </div>
 </div><br>
-
-<div class="card mb-3" id ="card3"style="max-width: 540px;"id="card1">
+	</div>
+    <div class="w-100"></div>
+    <div class="col">
+	<div class="card mb-3" style="max-width: 540px;"id="card1">
   <div class="row no-gutters">
     <div class="col-md-4">
       <img src="image/ao.jpg" class="card-img" height="200px" >
@@ -291,12 +301,14 @@ Find the right apartment for you.</h2></div>
     </div>
   </div>
 </div><br>
-
-
-<div class="card mb-3" id ="card4"style="max-width: 540px;"id="card1">
+	
+	</div>
+	
+    <div class="col">
+	<div class="card mb-3" style="max-width: 540px;"id="card1">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="image/av.jpg" class="card-img" height="230px" >
+      <img src="image/av.jpg" class="card-img" height="200px" >
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -307,7 +319,13 @@ Find the right apartment for you.</h2></div>
     </div>
   </div>
 </div><br>
-        </div>
+	</div>
+  </div>
+</div>
+</div>
+		
+		<!--a!-->
+		
         <footer class="footer">
             <div class="footer-left col-md-4 col-sm-6">
                 <p class="about">
@@ -347,7 +365,7 @@ Find the right apartment for you.</h2></div>
         </footer>
     </div>
 
-<!--a!-->
+
 
 
 
