@@ -14,7 +14,7 @@
 .navbar-nav > li:hover{
     background-color: rgba(0, 0, 0, 0);
 }
-.navbar-nav > li > a:hover {
+.navbar-nav > li > a:hover,.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover {
     color: #C1A583 !important;
     transform: scale(1.05);
 
@@ -231,4 +231,8 @@
     padding: 20px 20px;
     color: white;
     margin-top: 30px;
+}
+.fa-facebook,.fa-twitter,.fa-instagram {
+    color: #2B2B2B !important;
+    transition: transform .35s;
 }
