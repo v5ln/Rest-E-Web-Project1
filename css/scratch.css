@@ -76,6 +76,7 @@
     font-size: large;
     color: #C5B095;
 }
+
 .footer {
     background-color: #414141;
     width: 100%;
@@ -242,3 +243,14 @@
 .footer-logo{
     width: 50%;
 }
+.backg{
+  background-image: url("../image/ai.jpg");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+#formh1
+{
+  margin-top:10%;
+  font-family:Bookman, serif;
+}
+
