@@ -9,12 +9,15 @@
 }
 .navbar-nav > li > a {
     color: #595959 !important;
+    transition: transform .35s;
 }
 .navbar-nav > li:hover{
     background-color: rgba(0, 0, 0, 0);
 }
 .navbar-nav > li > a:hover {
     color: #C1A583 !important;
+    transform: scale(1.05);
+
 }
 #logo > img{
     height: 3.2em;
