@@ -228,21 +228,15 @@
 }
 #formh1
 {
-  font-family:Bookman, serif;
-  font-size: 30px;
-}
-#sp{
-    margin-left: 120px;
-}
-#sp2{
-    margin-left: 40px;
-}
-#sp3{
-    margin-left: 25px;
-  margin-left: 25px;
+  font-family: Georgia, serif;
+  font-size: 45px;
+  margin-left: 220px;
+  color:#E5AC8B;
 
+  text-shadow: 2px 2px #424949 ;
 
 }
+
 .formm{
     position:relative;
     background: rgba(43, 43, 43, 0.85);
