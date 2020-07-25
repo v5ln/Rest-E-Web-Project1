@@ -23,12 +23,18 @@
     height: 3.2em;
     display: block;
 }
+
+
+
+body{
+    font-family: 'Oswald', sans-serif ;
+    letter-spacing: 2.5px;
+}
 #body{
     background-image: url("../image/bg.png");
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Oswald', sans-serif ;
-    letter-spacing: 2.5px;
+
 }
 .block > p{
     opacity: 0;
@@ -238,6 +244,7 @@
 }
 .formm{
     position:relative;
+
     background: rgba(43, 43, 43, 0.85);
     padding: 20px 20px;
     color: white;
@@ -367,7 +374,6 @@
 }
 
 .project-zoom:after{
-    content: '';
     position: absolute;
     left: 50%;
     top:50%;
@@ -404,4 +410,12 @@
     -ms-transform:scale(1);
     -o-transform:scale(1);
     transform:scale(1);
+}
+.proj3:after{
+    text-align: center;
+    color: #2B2B2B;
+}
+.carousel-inner{
+    max-height: 40em;
+    min-width: 20em;
 }
