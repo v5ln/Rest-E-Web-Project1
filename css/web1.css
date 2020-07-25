@@ -1,0 +1,8 @@
+#body-buy{
+    background-image: url("../image/buy-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+}
