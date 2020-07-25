@@ -23,12 +23,18 @@
     height: 3.2em;
     display: block;
 }
+
+
+
+body{
+    font-family: 'Oswald', sans-serif ;
+    letter-spacing: 2.5px;
+}
 #body{
     background-image: url("../image/bg.png");
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Oswald', sans-serif ;
-    letter-spacing: 2.5px;
+
 }
 .block > p{
     opacity: 0;
