@@ -367,7 +367,6 @@
 }
 
 .project-zoom:after{
-    content: '';
     position: absolute;
     left: 50%;
     top:50%;
@@ -404,4 +403,8 @@
     -ms-transform:scale(1);
     -o-transform:scale(1);
     transform:scale(1);
+}
+.proj3:after{
+    text-align: center;
+    color: #2B2B2B;
 }
