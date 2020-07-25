@@ -408,3 +408,7 @@
     text-align: center;
     color: #2B2B2B;
 }
+.carousel-inner{
+    max-height: 40em;
+    min-width: 20em;
+}
