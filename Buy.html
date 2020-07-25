@@ -78,10 +78,10 @@
         <form action="#">
         <thead>
         <tr class="tr1">
-            <th></th>
+
             <th>Price*</th>
             <th>space*</th>
-            <th>Status</th>
+            <th>Status*</th>
         <th>home type*</th>
 
 
@@ -89,9 +89,6 @@
         </thead>
          <tbody>
         <tr class="tr2">
-       <td>
-
-</td>
     <td>
    <label for="quantity">from</label>
    <input type="number" id="quantity" name="quantity" min="100" max="300">
@@ -99,14 +96,15 @@
    <input type="number" id="quantity" name="quantity" min="100" max="300">
     </td>
     <td>
-  <input type="number" id="quantity" name="quantity" min="100" max="600">
+       <label for="quantity">(between 100m & 500m):</label><br>
+  <input type="number" id="quantity" name="quantity" min="100" max="500">
     </td>
     <td>
-
+	 <label for="quantity">(between 100 $ & 4000 $):</label><br>
   <input type="number" id="quantity" name="quantity" min="100" max="4000">
     </td>
     <td>
-
+	<label for="quantity">(between 3 <small>rooms</small> & 10<small>rooms</small> ):</label><br>
   <input type="number" id="quantity" name="quantity" min="100" max="500">
     </td>
       </tr>
