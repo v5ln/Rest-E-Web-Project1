@@ -53,8 +53,8 @@
     font-size: large;
     color: #C5B095;
 }
-.back {
-	background-color : rgba(85,89,92,0.7) ;
+.col-bg{
+background-color : rgba(85,89,92,0.7) ;
 	height: 225px ;
     width : 600px;
     margin-left: 40px;
@@ -62,28 +62,33 @@
     color : #E5AC8B ;
 border-radius:4px;
 }
-.back1 {
-	background-color : rgba(85,89,92,0.7) ;
-	height: 260px ;
-    width : 600px;
+.col-bg{
+background-color : rgba(85,89,92,0.7) ;
+	height:150% ;
+    width : 190%;
 	padding :20px;
 	margin-bottom:30px;
 	border-radius:4px;
 }
+
 .hrent1{
 	line-height: 1.5;
 	letter-spacing: 2px;
 	text-transform: capitalize;
 	 font-family: "Times New Roman";
 	 color : #E5AC8B ;
+	 font-size:185%
 }
-.hrent{
-	 line-height: 2;
+
+.text-md-left{
+ line-height: 2;
 	letter-spacing: 3px;
 	text-transform: capitalize;
 	 font-family: "Times New Roman";
 	 color : #E5AC8B;
+	 font-size:200%
 }
+
 #titler{
 	letter-spacing: 3px;
 	text-transform: capitalize;
@@ -108,6 +113,10 @@ border-radius:4px;
 	height:70px ;
 	
 }
+.thead-bg{
+background-color: rgba(229,172,139,0.8);
+	text-align: center ;
+}
 
 
 .inputs{
@@ -117,22 +126,30 @@ border-radius:4px;
 	color : white;
     border: none;
 }
-#card1{
+.card-bg{
 	background-color:#09709C;
 	height:200px;
 }
-.card-title1  {
+.card-title  {
 	letter-spacing: 3px;
 	text-transform: capitalize;
 	 font-family: "Times New Roman";
 	color : #FDA815 ;
-	font-size:130%;
+	
 }
-.card-texts .text-muted{
-	color:white;
-	font-size:110%;
+.card-body{
+height:auto;
 }
-
+.card-text{
+text-decoration: none;
+}
+.li{
+color : #FDA815 ;
+}
+.li:hover {
+ color: #FDA815;
+ text-decoration: none;
+{
 
 
 
@@ -177,8 +194,8 @@ border-radius:4px;
 	
 	<div class="container">
   <div class="row">
-    <div class="col">
-	<div class = "back "><h1 class = "hrent">Now with <i>REST-E</i> find the<br> right apartment for rent </h1></div>
+    <div class="col col-bg">
+	<div ><h1 class ="text-md-left">Now with <i>REST-E</i> find the right apartment for rent </h1></div>
 	</div>
     <div class="col">
 	</div>
@@ -191,8 +208,8 @@ border-radius:4px;
   <div class="row">
     <div class="col">
 	</div>
-    <div class="col">
-	 <div class = "back1 "><h2 class = "hrent1">Student ? Employee ? do you have a family ? Do you want to be independent and live on your own?
+    <div class="col col-bg">
+	 <div ><h2 class = "hrent1">Student ? Employee ? do you have a family ? Do you want to be independent and live on your own?
 Find the right apartment for you.</h2></div>
 	</div>
   </div>
@@ -208,7 +225,7 @@ Find the right apartment for you.</h2></div>
                 <div class="container">
      <table class="table table-bordered">
         <form action="#">
-        <thead>
+        <thead class="thead-bg">
         <tr class="tr1">
             <th>Apartment Type</th>
             <th>Furnished Apartment</th>
@@ -255,83 +272,68 @@ Find the right apartment for you.</h2></div>
 <br><br><br>
 
 
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-	<div class="card mb-3" style="max-width: 540px;"id="card1">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="image/al.jpg" class="card-img" height="200px" >
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title1">Family Apartment on the second floor <small>In Rafidia</small></h5>
-        <p class="card-text">The apartment contains 4 rooms - 2 bathrooms - kitchen - lounge - 2 balconies</p>
-        <p class="card-texts"><small>Last updated 3 mins ago</small></p>
-      </div>
+<!--1,2,3-->
+    
+	<div class="card-deck">
+  <div class="card">
+    <img src="image/al.jpg" class="card-img-top" alt="..." style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Family Apartment on the second floor <small>In Rafidia</small></h5>
+      <p class="card-text">The apartment contains 4 rooms - 2 bathrooms - kitchen - lounge - 2 balconies 
+	  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </div>
-</div> <br>
-	</div>
-	
-    <div class="col">
-	<div class="card mb-3" style="max-width: 540px;"id="card1">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="image/ax.jpg" class="card-img" height="200px" >
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title1">Family apartment on the ground floor <small>In Tell Street</small></h5>
-        <p class="card-text">The apartment contains four rooms - lounge - two bathrooms - kitchen - store in the basement - car park</p>
-        <p class="card-texts"><small>Last updated 3 mins ago</small></p>
-      </div>
+  <div class="card">
+    <img src="image/ax.jpg" class="card-img-top" alt="..." style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Family apartment on the ground floor <small>In Tell Street</small></h5>
+      <p class="card-text">The apartment contains four rooms - lounge - two bathrooms - kitchen - store in the basement - car park  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </div>
-</div><br>
-	</div>
-    <div class="w-100"></div>
-    <div class="col">
-	<div class="card mb-3" style="max-width: 540px;"id="card1">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="image/ao.jpg" class="card-img" height="200px" >
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title1">Student apartment on the second floor  <small>In Rafidia, opposite the university</small></h5>
-        <p class="card-text">The apartment contains four rooms - two bathrooms - balcony - lounge - kitchen</p>
-        <p class="card-texts"><small>Last updated 3 mins ago</small></p>
-      </div>
+  <div class="card">
+    <img src="image/ao.jpg" class="card-img-top" alt="..." style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Student apartment on the second floor  <small>In Rafidia, opposite the university</small></h5>
+      <p class="card-text">The apartment contains four rooms - two bathrooms - balcony - lounge - kitchen  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </div>
 </div><br>
 	
-	</div>
+	<!--4,5,6-->
 	
-    <div class="col">
-	<div class="card mb-3" style="max-width: 540px;"id="card1">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="image/av.jpg" class="card-img" height="200px" >
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title1">Student apartment on the third floor <small>In Rafidia</small></h5>
-        <p class="card-text">The apartment contains four separate rooms - lounge - two bathrooms - balcony - kitchen</p>
-        <p class="card-texts"><small>Last updated 3 mins ago</small></p>
-      </div>
+	<div class="card-deck">
+  <div class="card">
+    <img src="image/av.jpg" class="card-img-top" alt="..." style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Student apartment on the third floor <small>In Rafidia</small></h5>
+      <p class="card-text">The apartment contains four separate rooms - lounge - two bathrooms - balcony - kitchen  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </div>
-</div><br>
-	</div>
+  <div class="card">
+    <img src="image/ax.jpg" class="card-img-top" alt="..."style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Family apartment on the ground floor <small>In Tell Street</small></h5>
+      <p class="card-text">The apartment contains four rooms - lounge - two bathrooms - kitchen - store in the basement - car park  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="image/ao.jpg" class="card-img-top" alt="..."style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Student apartment on the second floor  <small>In Rafidia, opposite the university</small></h5>
+      <p class="card-text">The apartment contains four rooms - two bathrooms - balcony - lounge - kitchen  <a href="#" class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
+    </div>
   </div>
 </div>
-</div><br><br><br>
+<br><br><br>
 
-		
-		<!--a!-->
+
+<!--a!-->
 		
         <footer class="footer">
             <div class="footer-left col-md-4 col-sm-6">
