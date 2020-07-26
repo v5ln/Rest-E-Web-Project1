@@ -42,17 +42,15 @@
 }
 .back {
 	background-color : rgba(85,89,92,0.7) ;
-	height: 225px ;
-    width : 500px;
-    margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom:150px  ;
     padding :20px;
     color : #ffffff ;
 border-radius:4px;
 }
 .back1 {
 	background-color : rgba(85,89,92,0.7) ;
-	height: 260px ;
-    width : 500px;
+
 	padding :20px;
 	color: #ffffff;
 	border-radius:4px;
@@ -62,20 +60,20 @@ border-radius:4px;
 	line-height: 1.5;
 	letter-spacing: 2px;
 	text-transform: capitalize;
-	 font-family: "Times New Roman";
+	 font-weight: bold;
 	 color : #E5AC8B;
 }
 .hrent{
 	 line-height: 2;
 	letter-spacing: 3px;
 	text-transform: capitalize;
-	 font-family: "Times New Roman";
+	font-weight: bold;
 	 color : #E5AC8B;
 }
 #titler{
 	letter-spacing: 3px;
 	text-transform: capitalize;
-	 font-family: "Times New Roman";
+	font-weight: bold;
 	color : #ffffff;
 	font-size: 40px;
 }
