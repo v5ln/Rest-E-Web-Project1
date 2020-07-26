@@ -10,11 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scratch.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="image/icon-logo2.png">
+    <title>REST-E</title>
     <link rel="stylesheet" href="css/scratch.css">
-    <link rel="stylesheet" href="css/web1.css">
 </head>
 <body>
-<div id="body-buy">
+</div>
+<div id="body">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="Home.html"><div id="logo"><img src="image/logo2.png"></div></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,85 +48,64 @@
             </ul>
         </div>
     </nav>
-  <!--Start Here-->
-
-    <div class="container">
-  <div class="row">
-    <div class="col">
-  <div class = "back "><h1 class = "hrent">Own Your Home Now! </h1><h3>Now with Rest-e, see the avilable<br>homes for you<br>Own your own home</h3></div>
-
-    <div class="col">
-  </div>
-  </div>
-</div><br><br>
-
-
-  <div class="block"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
-  <div class="container">
-  <div class="row">
-    <div class="col">
-  </div>
-    <div class="col">
-   <div class = "back1 "><h1 class = "hrent1">Trust us!</h1><h3>Rest-e provides total security and confidence between the
-     customer and seller,where the advertisement are 100% real</h3></div>
-  </div>
-  </div>
-</div>
-    </div>
-
-        <div class="jumbotron">
-            <p  id="titler">Find the specification of your homr</p><br>
-
-       <section class="search-sec">
-                <div class="container">
-     <table class="table table-bordered">
-        <form action="#">
-        <thead>
-        <tr class="tr1">
-
-            <th>Price*</th>
-            <th>space*</th>
-            <th>Status*</th>
-        <th>home type*</th>
-
-
-        </tr>
-        </thead>
-         <tbody>
-        <tr class="tr2">
-    <td>
-   <label for="quantity">from</label>
-   <input type="number" id="quantity" name="quantity" min="100" max="300">
-   <label for="quantity">to</label>
-   <input type="number" id="quantity" name="quantity" min="100" max="300">
-    </td>
-    <td>
-       <label for="quantity">(between 100m & 500m):</label><br>
-  <input type="number" id="quantity" name="quantity" min="100" max="500">
-    </td>
-    <td>
-	 <label for="quantity">(between 100 $ & 4000 $):</label><br>
-  <input type="number" id="quantity" name="quantity" min="100" max="4000">
-    </td>
-    <td>
-	<label for="quantity">(between 3 <small>rooms</small> & 10<small>rooms</small> ):</label><br>
-  <input type="number" id="quantity" name="quantity" min="100" max="500">
-    </td>
-      </tr>
-    </tbody>
-  </table><br>
-  <input type="submit" value="Search" class ="inputs">
-</form>
-</div>
-</section>
-<br><br><br>
-
-
-
-
-
+    <div class="row" style="padding-top: 10%">
+        <div class="col-sm-2">
         </div>
-    <!--End Here-->
+        <div class="col">
+            <div class="jumbotron" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="well well-sm">
+                                <form class="" method="post">
+                                    <fieldset>
+                                        <legend class="text-xs-center header">Contact us</legend>
+                                        <div class="form-group">
+                                            <span class="col-md-1 offset-md-2 text-xs-center"></span>
+                                            <div class="col-md">
+                                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="col-md-1 offset-md-2 text-xs-center"></span>
+                                            <div class="col-md">
+                                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="col-md-1 offset-md-2 text-xs-center"></span>
+                                            <div class="col-md">
+                                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="col-md-1 offset-md-2 text-xs-center"></span>
+                                            <div class="col-md">
+                                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="col-md-1 offset-md-2 text-xs-center"></span>
+                                            <div class="col-md">
+                                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12 text-xs-center">
+                                                <button type="submit" class="btn btn-primary btn-lg" style="background-color: #555555; border: none">Submit</button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+    </div>
     <footer class="footer">
         <div class="footer-left col-md-4 col-sm-6">
             <p class="about">
@@ -176,6 +160,11 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/scratch.js"></script>
+<script src="js/aos.js"></script>
+<script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
+</script>
 </body>
 </html>
