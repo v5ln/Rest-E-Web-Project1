@@ -36,6 +36,11 @@ body{
     background-attachment: fixed;
 
 }
+#body-cont{
+    background-image: url("../image/contact-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 .block > p{
     opacity: 0;
     height: 35em;
