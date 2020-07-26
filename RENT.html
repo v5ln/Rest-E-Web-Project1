@@ -70,30 +70,34 @@ background-color : rgba(85,89,92,0.7) ;
 	padding :20px;
 	margin-bottom:30px;
 	border-radius:4px;
+    font-weight: bold;
+
 }
 
 .hrent1{
 	line-height: 1.5;
 	letter-spacing: 2px;
 	text-transform: capitalize;
-	 font-family: "Times New Roman";
 	 color : #E5AC8B ;
-	 font-size:185%
+	 font-size:185%;
+    font-weight: bold;
+
 }
 
 .text-md-left{
  line-height: 2;
 	letter-spacing: 3px;
 	text-transform: capitalize;
-	 font-family: "Times New Roman";
 	 color : #E5AC8B;
-	 font-size:200%
+	 font-size:200%;
+    font-weight: bold;
+
 }
 
 #titler{
 	letter-spacing: 3px;
 	text-transform: capitalize;
-	 font-family: "Times New Roman";
+    font-weight: bold;
 	color : #E5AC8B;
 	font-size: 40px;
 }
@@ -202,11 +206,8 @@ color : #FDA815 ;
 	</div>
   </div>
 </div><br><br>
-
-	
-	<div class="block"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
-	<div class="container">
-  <div class="row">
+        <div class="container">
+  <div class="row" style="padding-top: 100px">
     <div class="col">
 	</div>
     <div class="col col-bg">
@@ -219,57 +220,132 @@ Find the right apartment for you.</h2></div>
         <div class="jumbotron">
             <p  id="titler">Find the apartment for you to rent</p><br>
 			<p class ="astric"> * Fill out the search form (filter) with information about the apartment to be rented</p><br><br>
+            <section class="search-sec" >
+                <div class="container" >
+                    <form action="#" method="post" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Apartment Type</small></label>
+                                        <select class="form-control search-slt" >
+                                            <option>
+                                                Family apartment
+                                            </option>
+                                            <option>
+                                                Student apartment
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Furnished</small></label>
+                                        <select class="form-control search-slt" >
+                                            <option>
+                                                Full
+                                            </option>
+                                            <option>
+                                                Half
+                                            </option>
+                                            <option>
+                                                None
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Space</small></label>
+                                        <input type="number" min="100" max="500" placeholder="(100m - 500m)" class="form-control search-slt">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Price ($) monthly</small></label>
+                                        <input type="number" min="100" max="4000" placeholder="(100$ - 4000$)" class="form-control search-slt">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Rooms</small></label>
+                                        <input type="number" min="1" max="10" placeholder="(1-10)" class="form-control search-slt">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label style="opacity: 0">1</label>
+                                        <button type="button" class="btn btn-secondary wrn-btn" id="s-b">SEARCH</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
            
 
-
+<!--
 		   <section class="search-sec">
                 <div class="container">
-     <table class="table table-bordered">
-        <form action="#">
-        <thead class="thead-bg">
-        <tr class="tr1">
-            <th>Apartment Type</th>
-            <th>Furnished Apartment</th>
-            <th>Space</th>
-		    <th>Price ($) <small>monthly</small></th>
-		    <th>Number Of Rooms</th>
-		
-        </tr>
-        </thead>
-         <tbody>
-        <tr class="tr2">
-       <td>
-	      <input type="radio" id="Family apartment" name="apartment" value="Family apartment">
-  <label for="male">Family apartment</label><br>
-  <input type="radio" id="Student apartment" name="apartment" value="Student apartment">
-  <label for="female">Student apartment</label>
+                    <div class="row">
 
-</td>
-		<td>
-		 <input type="radio" id="Yes" name="Furnished" value="Yes">
-  <label for="male">Yes</label><br>
-  <input type="radio" id="No" name="Furnished" value="No">
-  <label for="female">No</label>
-		</td>
-		<td>
-		 <label for="quantity">(between 100m & 500m):</label><br>
-  <input type="number" id="quantity" name="quantity" min="100" max="500">
-		</td>
-		<td>
-		 <label for="quantity">(between 100 $ & 4000 $):</label><br>
-  <input type="number" id="quantity" name="quantity" min="100" max="4000">
-		</td>
-		<td>
-		<label for="quantity">(between 3 <small>rooms</small> & 10<small>rooms</small> ):</label><br>
-  <input type="number" id="quantity" name="quantity" min="100" max="500">
-		</td>
-      </tr>
-    </tbody>
-  </table><br>
+                        <table class="table table-bordered">
+                            <form action="#">
+                                <div class="col">
+
+                                </div>
+                                <div class="col">
+
+                                </div>
+                                <div class="col">
+
+                                </div>
+                                <div class="col">
+
+                                </div>
+                                <div class="col">
+
+                                </div>
+                                <thead class="thead-bg">
+                                <tr class="tr1">
+                                    <th>Apartment Type</th>
+                                    <th>Furnished Apartment</th>
+                                    <th>Space</th>
+                                    <th>Price ($) <small>monthly</small></th>
+                                    <th>Number Of Rooms</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="tr2">
+                                    <td>
+                                        <input type="radio" id="Family apartment" name="apartment" value="Family apartment">
+                                        <label>Family apartment</label><br>
+                                        <input type="radio" id="Student apartment" name="apartment" value="Student apartment">
+                                        <label>Student apartment</label>
+
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="Yes" name="Furnished" value="Yes">
+                                        <label>Yes</label><br>
+                                        <input type="radio" id="No" name="Furnished" value="No">
+                                        <label>No</label>
+                                    </td>
+                                    <td>
+                                        <label for="quantity">(between 100m & 500m):</label><br>
+                                        <input type="number" id="quantity" name="quantity" min="100" max="500">
+                                    </td>
+                                    <td>
+                                        <label for="quantity">(between 100 $ & 4000 $):</label><br>
+                                        <input type="number" id="quantity" name="quantity" min="100" max="4000">
+                                    </td>
+                                    <td>
+                                        <label for="quantity">(between 3 <small>rooms</small> & 10<small>rooms</small> ):</label><br>
+                                        <input type="number" id="quantity" name="quantity" min="100" max="500">
+                                    </td>
+                                </tr>
+                                </tbody>
+                        </table>
+                    </div>
+
+     <br>
   <input type="submit" value="Search" class ="inputs">
 </form>
 </div>
 </section>
+            -->
 <br><br><br>
 
 
@@ -331,6 +407,7 @@ Find the right apartment for you.</h2></div>
     </div>
   </div>
 </div>
+        </div>
 <br><br><br>
 
 
@@ -401,6 +478,7 @@ Find the right apartment for you.</h2></div>
                 <p class="name"> Rest-E &copy; 2020</p>
             </div>
         </footer>
+
     </div>
 
 
