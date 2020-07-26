@@ -421,7 +421,17 @@ body{
     text-align: center;
     color: #2B2B2B;
 }
-.carousel-inner{
+.carousel-inner,.cap{
     max-height: 40em;
     min-width: 20em;
+}
+.cap > h3{
+    margin-right: 20%;
+    margin-top: 12%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    color: #c0a683;
+}
+.cap > p{
+    margin-left: 20%;
 }
