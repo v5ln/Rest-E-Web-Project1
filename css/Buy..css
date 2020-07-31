@@ -1,0 +1,38 @@
+.card-bg{
+	background-color:#535353;
+	height:200px;
+	height:auto;
+	border-bottom-right-radius:13px;
+	border-bottom-left-radius:13px;
+}
+.card-img-top{
+	border-top-right-radius:13px;
+	border-top-left-radius:13px;
+}
+
+.card-title  {
+	letter-spacing: 3px;
+	text-transform: capitalize;
+	 font-family: "Times New Roman";
+	color : #FDA815 ;
+
+
+}
+.card {
+	border-radius:13px;
+	cursor: pointer;
+
+}
+.card-deck{
+	margin:20px;
+}
+.card:hover{
+		transform: scale(1.04);
+		box-shadow: 5px 5px 10px #535353 ;
+		text-decoration: none;
+}
+#carouselExampleIndicators{
+	height:580px;
+}
+a:visited {
+  color: white;
