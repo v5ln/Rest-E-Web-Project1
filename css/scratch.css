@@ -219,50 +219,7 @@ padding-bottom: 41%;
 .footer-logo{
     width: 50%;
 }
-.backg{
-  background-image: url("../image/ba.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
- background-size: cover;
-    background-attachment: fixed;
 
-}
-#formh1
-{
-
-  font-family: Georgia, serif;
-
-  text-align: center;
-  color:#E5AC8B;
-
-  text-shadow: 2px 2px #424949 ;
-
-}
-
-  #adv{
-  background: rgb(221,176,150);
-
-  color: black;
-  padding-left: 100px;
-  font-size: 40px;
-}
-.formm{
-    position:relative;
-
-    background: rgba(43, 43, 43);
-    padding: 20px 20px;
-    color: white;
-    margin-top: 30px;
-    font-size: 20px;
-}
-btn:hover {
-    background-position: right center;
-}
-
-.btn-1 {
-    background-image: linear-gradient(to right, #8c5a3d 0%,#ebbca1 51%,#8c5a3d 100%);
-}
 .fa-facebook,.fa-twitter,.fa-instagram {
     color: #2B2B2B !important;
     transition: transform .35s;
