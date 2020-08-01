@@ -41,9 +41,8 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.block > p{
-    opacity: 0;
-    height: 35em;
+.block {
+padding-bottom: 41%;
 }
 .jumbotron{
     background-color: #2B2B2B;
