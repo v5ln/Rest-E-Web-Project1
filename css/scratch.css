@@ -255,6 +255,14 @@ body{
     padding: 20px 20px;
     color: white;
     margin-top: 30px;
+    font-size: 20px;
+}
+btn:hover {
+    background-position: right center;
+}
+
+.btn-1 {
+    background-image: linear-gradient(to right, #8c5a3d 0%,#ebbca1 51%,#8c5a3d 100%);
 }
 .fa-facebook,.fa-twitter,.fa-instagram {
     color: #2B2B2B !important;
