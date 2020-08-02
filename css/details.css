@@ -1,3 +1,30 @@
+
+body{
+	background-color: #535353 ;
+}
+h1{
+	color:#F5CBA7  ;
+font-weight:bold;
+ text-shadow: 2px 2px 4px #000000;
+}
+#p1{
+	font-weight:bold;
+font-size: 20px;
+}
+.table{
+	color: white;
+	margin-top: 40px;
+	font-size: 20px;
+width: 500px;
+margin-left: 300px;
+text-align: center;
+position: relative;
+}
+.imgsiz{
+	width: 650px;
+margin: auto;
+height: 500px;}
+
 #body1{
 	background-color: #535353 ;
 }
