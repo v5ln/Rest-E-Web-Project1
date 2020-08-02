@@ -9,3 +9,20 @@ background-size: cover;
 h5{
   font-size: 50px;
 }
+.card-body{
+   background-color: #2B2B2B;
+   color: #c0a683;
+ }
+.card{
+  border: none;
+}
+.btn-primary{
+  background-color: #555555;
+  border-color: #555555;
+  color: #c0a683;
+}
+.btn-primary:hover{
+  background-color: #3d3d3d;
+  color: #c9b28e;
+  border-color: #3d3d3d;
+}
