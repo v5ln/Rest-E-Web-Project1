@@ -1,0 +1,36 @@
+
+body{
+	background-color: #535353 ;
+}
+.text{
+	text-align:center;
+}
+h1{
+color:#F5CBA7  ;
+font-size:4vw;
+}
+
+.thead-color{
+	background-color:#F5CBA7;
+}
+
+.table{
+color: white;
+margin-top: 40px;
+font-size: 20px;
+width: 100%px;
+text-align: center;
+}
+.moredetails{
+	font-size:2vw;
+	color:white;
+}
+a:link {
+  color: white;
+}
+a:hover{
+	text-decoration : none;
+	color:#F5CBA7  ;
+}
+
+
