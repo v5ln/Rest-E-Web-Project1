@@ -1,20 +1,25 @@
-#body1{
+body{
 	background-color: #535353 ;
 }
-.center {
-	margin: auto;
-  width: 60%;
-}
 h1{
-	color:#E5AC8B;
+	color:#F5CBA7  ;
+font-weight:bold;
+ text-shadow: 2px 2px 4px #000000;
 }
-.det{
-	color : #E5AC8B:
+#p1{
+	font-weight:bold;
+font-size: 20px;
 }
 .table{
-	width:700px;
-	margin:auto;
+	color: white;
+	margin-top: 40px;
+	font-size: 20px;
+width: 500px;
+margin-left: 300px;
+text-align: center;
+position: 
 }
-.the{
-	background-color:#E5AC8B;
-}
+.imgsiz{
+	width: 650px;
+margin: auto;
+height: 500px;}
