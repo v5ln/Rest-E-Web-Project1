@@ -1,6 +1,6 @@
 
 #body1{
-	background-image: url("../image/an.jpg");
+	background-image: url("../image/ra.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size:cover ;
@@ -150,6 +150,6 @@ background-color: rgba(229,172,139,0.8);
 #carouselExampleIndicators{
 	height:580px;
 }
-a:visited {
+a:link {
   color: white;
 }
