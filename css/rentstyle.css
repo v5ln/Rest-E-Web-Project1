@@ -96,7 +96,7 @@ background-color : rgba(85,89,92,0.7) ;
 	font-size: 11px;
 	
 }
-/*.tr1{
+.tr1{
 	background-color: rgba(229,172,139,0.8);
 	text-align: center ; 
 }
@@ -116,7 +116,7 @@ background-color: rgba(229,172,139,0.8);
 	left : 50% ;
 	color : white;
     border: none;
-} */
+}
 .card-bg{
 	background-color:#535353;
 	height:200px;
@@ -140,7 +140,6 @@ background-color: rgba(229,172,139,0.8);
 .card {
 	border-radius:13px;
 	cursor: pointer;
-	border-color :#535353;
 	
 }
 .card-deck{
