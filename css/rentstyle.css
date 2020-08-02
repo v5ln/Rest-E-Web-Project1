@@ -156,5 +156,7 @@ background-color: rgba(229,172,139,0.8);
 a:visited {
   color: white;
 }
-
+a:link{
+	color:white;
+}
 
