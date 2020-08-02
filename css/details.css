@@ -1,3 +1,4 @@
+
 body{
 	background-color: #535353 ;
 }
@@ -23,3 +24,24 @@ position: relative;
 	width: 650px;
 margin: auto;
 height: 500px;}
+
+#body1{
+	background-color: #535353 ;
+}
+.center {
+	margin: auto;
+  width: 60%;
+}
+h1{
+	color:#E5AC8B;
+}
+.det{
+	color : #E5AC8B:
+}
+.table{
+	width:700px;
+	margin:auto;
+}
+.the{
+	background-color:#E5AC8B;
+}
