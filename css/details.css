@@ -1,3 +1,4 @@
+
 body{
 	background-color: #535353 ;
 }
@@ -17,7 +18,7 @@ font-size: 20px;
 width: 500px;
 margin-left: 300px;
 text-align: center;
-position: 
+position: relative;
 }
 .imgsiz{
 	width: 650px;
