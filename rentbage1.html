@@ -10,19 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/scratch.css" >
-
-    <link rel="stylesheet" href="css/details.css" >
+    <link rel="stylesheet" href="css/rentbage1.css" >
 
 	<link rel="icon" type="image/png" sizes="16x16" href="image/icon-logo2.png">
 	<title>REST-E</title>
-
-	<link rel="stylesheet" href="css/details.css" >
-	<link rel="icon" type="image/png" sizes="16x16" href="image/icon-logo2.png">
-	<title>REST-E</title>
-	
 
 </head>
+
 <body>
+
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="Home.html"><div id="logo"><img src="image/logo2.png"></div></a>
@@ -55,74 +51,34 @@
 	<!--s-->
 
 
-	
-	<div class ="center">
-      <h1>Student apartment on the third floor</h1>
-	  <p class ="det">Nablus-Rafidia-Opposite to the university-behind the Qoutob supermarket </p>
-  </div>
-  
-	<table class="table">
-  <thead class="the">
-    <tr>
-      <th scope="col">Properties</th>
-      <th scope="col">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td ></td>
-      <td>Mark</td>
-      
-    </tr>
-    <tr>
-      <th >2</th>
-      <td>Jacob</td>
-    </tr>
-    <tr>
-      <th >3</th>
-      <td>Larry</td>
-      
-    </tr>
-  </tbody>
-</table>
-
-	
-	
-	
-	
-	
-	
-	
-
-	<!--e-->
 
 
 
 
-
-
-	<div class="text-lg-center">
-      <h1 >Student apartment on the third floor</h1>
-	  <span class="oi oi-location " id="p1" > Nablus-Rafidia-Opposite to the university-behind </br> the Qoutob supermarket</span>
+	<div class ="text">
+      <h1 >Student apartment on the third floor</h1><br>
+	  <span id="fa"class="fa fa-map-marker" style="color:white">
+	  Nablus-Rafidia-Opposite to the university-behind </br> the Qoutob supermarket</span>
 </div>
-  <div class="container" >
-    <table class="table table-bordered">
-      <thead>
+
+  <div class="container">
+  <div class="row">
+  <div class="col"></div>
+    <div class="col-6">
+       <table class="table table-bordered">
+      <thead class="thead-color">
         <tr>
           <th>Properties</th>
           <th>description</th>
         </tr>
-
       <tbody>
         <tr>
-          <td>Numbed of rooms</td>
+          <td>Number of rooms</td>
           <td>4</td>
-
         </tr>
         <tr>
           <td>Number of bathrooms</td>
           <td>2</td>
-
         </tr>
         <tr>
           <td>Number of kitchens</td>
@@ -139,26 +95,36 @@
           <td>1</td>
         </tr><tr>
           <td>Space</td>
-          <td>1</td>
+          <td>180<small>m</small></td>
         </tr>
       </tbody>
-    </table>
+    </table><br>
+	<p class="moredetails"><p>
+
+    </div>
+    <div class="col"></div>
   </div>
-  <br><br><br>
+</div>
+
+
+ <br><br><br>
+  <div class ="row">
+  <div class = "col">
+  </div>
+  <div class ="col-6">
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="imgsiz">
     <div class="carousel-item active">
-      <img src="image/livroom3.jpg" class="d-block w-100" alt="...">
+      <img src="image/livroom3.jpg" class="d-block w-100 " height="400px"  alt="...">
     </div>
     <div class="carousel-item">
-      <img src="image/bedroom13.jpeg" class="d-block w-100" alt="...">
+       <img src="image/bedroom13.jpg" class="d-block w-100 " height="400px" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="image/kitchen1.jpg" class="d-block w-100" alt="...">
+      <img src="image/kitchen1.jpg" class="d-block w-100 " height="400px" alt="...">
     </div>
-    <div class="carousel-item">
-      <img src="image/bathroom12.jpg" class="d-block w-100" alt="...">
+	<div class="carousel-item">
+      <img src="image/bathroom12.jpg" class="d-block w-100 " height="400px" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -170,14 +136,28 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-</div>
+  </div>
+  <div class="col">
+
+  </div>
+  </div>
+
 <div class="container" >
+<div class ="row">
+<div class ="col"></div>
+<div class = "col-6">
   <table class="table table-bordered">
-          <tbody>
+          <thead class="thead-color">
       <tr>
+	  <td colspan="2">Advertiser Information </td>
+	  </tr>
+	  </thead>
+	  <tr>
         <td>Advertiser Name</td>
         <td>Ahmed Khaled</td>
       </tr>
+
+	  <tbody>
       <tr>
         <td>Telephone number</td>
         <td>0599875410</td>
@@ -185,13 +165,20 @@
       </tr>
       <tr>
         <td>Email</td>
-        <td>ahmad.kh@gmail.com</td>
+        <td><a href="mailto:ahmad.kh@gmail.com">ahmad.kh@gmail.com</a> </td>
       </tr>
       <tr>
 
     </tbody>
   </table>
+  </div>
+  <div class ="col"></div>
+  </div>
 </div>
+
+<!--e-->
+
+
 <footer class="footer">
             <div class="footer-left col-md-4 col-sm-6">
                 <p class="about">
