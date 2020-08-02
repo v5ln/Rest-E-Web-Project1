@@ -376,6 +376,8 @@ padding-bottom: 41%;
     -webkit-transition: all 0.7s;
     -o-transition: all 0.7s;
     transition: all 0.7s;
+
+
 }
 
 .project-zoom:after{
@@ -388,6 +390,7 @@ padding-bottom: 41%;
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+
 }
 
 .project figure:hover:after{
@@ -416,9 +419,12 @@ padding-bottom: 41%;
     -o-transform:scale(1);
     transform:scale(1);
 }
-.proj3:after{
-    text-align: center;
-    color: #2B2B2B;
+.proj-text{
+    color: rgba(43, 43, 43, 0.56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .carousel-inner,.cap{
     max-height: 40em;
