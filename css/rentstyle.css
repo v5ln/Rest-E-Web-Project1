@@ -159,4 +159,16 @@ a:visited {
 a:link{
 	color:white;
 }
-
+.btn-outline-secondary{
+	color:#E5AC8B;
+}
+.btn-outline-secondary:hover{
+	background-color:#E5AC8B;
+	
+	
+}
+.btn-outline-secondary:visited{
+	background-color:#E5AC8B;
+	
+	
+}
