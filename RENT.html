@@ -79,21 +79,24 @@ Find the right apartment for you.</h2></div>
 			<p class ="astric"> * Fill out the search form (filter) with information about the apartment to be rented</p><br><br>
             <section class="search-sec" >
                 <div class="container" >
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+								<div class="col-5"> </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label>Apartment Type</label><br><br>
+                                        <button type="button"class="btn btn-outline-secondary" onclick="myfun()">Family Apartment</button><br><br>
+										<button type="button" class="btn btn-outline-secondary" onclick="myfun1()">Student Apartment</button> 
+                                    </div> 
+									</div>
+									</div>
+									</div>
+									</div> <br><br>
+					<div class="container" id ="fo"style ="display:none;" >
                     <form action="#" method="post" novalidate="novalidate">
                         <div class="row">
                             <div class="col">
                                 <div class="row">
-                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
-                                        <label><small>Apartment Type</small></label>
-                                        <select class="form-control search-slt" >
-                                            <option>
-                                                Family apartment
-                                            </option>
-                                            <option>
-                                                Student apartment
-                                            </option>
-                                        </select>
-                                    </div>
                                     <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
                                         <label><small>Furnished</small></label>
                                         <select class="form-control search-slt" >
@@ -123,89 +126,132 @@ Find the right apartment for you.</h2></div>
                                         <button type="button" class="btn btn-secondary wrn-btn" id="s-b">SEARCH</button>
                                     </div>
                                 </div>
-
+                            </div>
+                        </div>
+                    </form>
+                </div>
+			<div class="container" id ="for"style ="display:none;" >
+                    <form action="#" method="post" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+								<div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Rooms</small></label>
+                                        <input type="number" min="2" max="10" placeholder="(2 - 10)" class="form-control search-slt">
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Room type</small></label>
+                                        <select class="form-control search-slt" >
+                                            <option>
+                                               Single room
+                                            </option>
+                                            <option>
+                                               Collective room
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Price ($) monthly</small></label>
+                                        <input type="number" min="50" max="400" placeholder="(50$ - 400$)" class="form-control search-slt">
+                                    </div>
+									 <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Region</small></label>
+                                        <select class="form-control search-slt" >
+                                            <option>
+                                              Old campus
+                                            </option>
+                                            <option>
+                                               New campus
+                                            </option>
+											<option>
+                                               Hijjawi campus
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label style="opacity: 0">1</label>
+                                        <button type="button" class="btn btn-secondary wrn-btn" id="s-b">SEARCH</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </form>
                 </div>
             </section>
-<!-- Old table code
-		   <section class="search-sec">
-                <div class="container">
-                    <div class="row">
+				<!-- Old table code
+					   <section class="search-sec">
+							<div class="container">
+								<div class="row">
 
-                        <table class="table table-bordered">
-                            <form action="#">
-                                <div class="col">
+									<table class="table table-bordered">
+										<form action="#">
+											<div class="col">
 
-                                </div>
-                                <div class="col">
+											</div>
+											<div class="col">
 
-                                </div>
-                                <div class="col">
+											</div>
+											<div class="col">
 
-                                </div>
-                                <div class="col">
+											</div>
+											<div class="col">
 
-                                </div>
-                                <div class="col">
+											</div>
+											<div class="col">
 
-                                </div>
-                                <thead class="thead-bg">
-                                <tr class="tr1">
-                                    <th>Apartment Type</th>
-                                    <th>Furnished Apartment</th>
-                                    <th>Space</th>
-                                    <th>Price ($) <small>monthly</small></th>
-                                    <th>Number Of Rooms</th>
+											</div>
+											<thead class="thead-bg">
+											<tr class="tr1">
+												<th>Apartment Type</th>
+												<th>Furnished Apartment</th>
+												<th>Space</th>
+												<th>Price ($) <small>monthly</small></th>
+												<th>Number Of Rooms</th>
 
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr class="tr2">
-                                    <td>
-                                        <input type="radio" id="Family apartment" name="apartment" value="Family apartment">
-                                        <label>Family apartment</label><br>
-                                        <input type="radio" id="Student apartment" name="apartment" value="Student apartment">
-                                        <label>Student apartment</label>
+											</tr>
+											</thead>
+											<tbody>
+											<tr class="tr2">
+												<td>
+													<input type="radio" id="Family apartment" name="apartment" value="Family apartment">
+													<label>Family apartment</label><br>
+													<input type="radio" id="Student apartment" name="apartment" value="Student apartment">
+													<label>Student apartment</label>
 
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="Yes" name="Furnished" value="Yes">
-                                        <label>Yes</label><br>
-                                        <input type="radio" id="No" name="Furnished" value="No">
-                                        <label>No</label>
-                                    </td>
-                                    <td>
-                                        <label for="quantity">(between 100m & 500m):</label><br>
-                                        <input type="number" id="quantity" name="quantity" min="100" max="500">
-                                    </td>
-                                    <td>
-                                        <label for="quantity">(between 100 $ & 4000 $):</label><br>
-                                        <input type="number" id="quantity" name="quantity" min="100" max="4000">
-                                    </td>
-                                    <td>
-                                        <label for="quantity">(between 3 <small>rooms</small> & 10<small>rooms</small> ):</label><br>
-                                        <input type="number" id="quantity" name="quantity" min="100" max="500">
-                                    </td>
-                                </tr>
-                                </tbody>
-                        </table>
-                    </div>
-
-     <br>
-  <input type="submit" value="Search" class ="inputs">
-</form>
-</div>
-</section>
-            -->
-
+												</td>
+												<td>
+													<input type="radio" id="Yes" name="Furnished" value="Yes">
+													<label>Yes</label><br>
+													<input type="radio" id="No" name="Furnished" value="No">
+													<label>No</label>
+												</td>
+												<td>
+													<label for="quantity">(between 100m & 500m):</label><br>
+													<input type="number" id="quantity" name="quantity" min="100" max="500">
+												</td>
+												<td>
+													<label for="quantity">(between 100 $ & 4000 $):</label><br>
+													<input type="number" id="quantity" name="quantity" min="100" max="4000">
+												</td>
+												<td>
+													<label for="quantity">(between 3 <small>rooms</small> & 10<small>rooms</small> ):</label><br>
+													<input type="number" id="quantity" name="quantity" min="100" max="500">
+												</td>
+											</tr>
+										  </tbody>
+									</table>
+								</div>
+				 <br>
+			  <input type="submit" value="Search" class ="inputs">
+			</form>
+			</div>
+			</section>
+						-->
 <br><br><br>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -330,5 +376,6 @@ Find the right apartment for you.</h2></div>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome.min.js"></script>
+<script src="js/rent.js"></script>
 </body>
 </html>
