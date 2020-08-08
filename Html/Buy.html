@@ -4,14 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174274336-1"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src=“https://www.googletagmanager.com/gtag/js?id=UA-174274336-1”></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-174274336-1');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag(‘js’, new Date());
+      gtag(‘config’, ‘UA-174274336-1’);
     </script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
@@ -19,9 +18,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/scratch.css" >
-	<link rel="stylesheet" href="css/rentstyle.css" >
+	<link rel="stylesheet" href="css/buy.css" >
 	<link rel="icon" type="image/png" sizes="16x16" href="image/icon-logo2.png">
 	<title>REST-E</title>
+
 </head>
 <body>
     <div id="body1">
@@ -48,17 +48,20 @@
                     <a class="nav-link disabled" href="signup.html" tabindex="-1" aria-disabled="true"><span class="oi oi-person"></span> SIGN UP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled " href="login.html" tabindex="-1" aria-disabled="true" ><span class="oi oi-account-login"></span> LOG IN</a>
+                    <a class="nav-link disabled " href="login.html" tabindex="-1" aria-disabled="true" ><span class="oi oi-account-login"></span> SIGN IN</a>
                 </li>
             </ul>
         </div>
-    </nav>
-	<br><br>
+    </nav><br><br>
+
+
+	<!--a!-->
+
 
 	<div class="container">
   <div class="row">
     <div class="col col-bg">
-	<div ><h1 class ="text-md-left">Now with <i>REST-E</i> find the right apartment for rent </h1></div>
+	<div ><h1 class ="text-md-left"> Own Your Home Now! </h1><h2>Now with Rest-e, see the available homes for you<br>Own your own home</h2></div>
 	</div>
     <div class="col">
 	</div>
@@ -69,34 +72,31 @@
     <div class="col">
 	</div>
     <div class="col col-bg">
-	 <div ><h2 class = "hrent1">Student ? Employee ? do you have a family ? Do you want to be independent and live on your own?
-Find the right apartment for you.</h2></div>
+	 <div ><h2 class = "hrent1"> Trust us!</h2><h3>Rest-e provides total security and confidence between the customer and seller, where the advertisements are 100% real</h3></div>
 	</div>
   </div>
 </div>
+
         <div class="jumbotron">
-            <p  id="titler">Find the apartment for you to rent</p><br>
-			<p class ="astric"> * Fill out the search form (filter) with information about the apartment to be rented</p><br><br>
+            <p  id="titler">Find the apecifications of your home</p><br>
+
             <section class="search-sec" >
                 <div class="container" >
-                        <div class="row">
-                            <div class="col">
-                                <div class="row">
-								<div class="col-5"> </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
-                                        <label>Apartment Type</label><br><br>
-                                        <button type="button"class="btn btn-outline-secondary" onclick="myfun()">Family Apartment</button><br><br>
-										<button type="button" class="btn btn-outline-secondary" onclick="myfun1()">Student Apartment</button> 
-                                    </div> 
-									</div>
-									</div>
-									</div>
-									</div> <br><br>
-					<div class="container" id ="fo"style ="display:none;" >
                     <form action="#" method="post" novalidate="novalidate">
                         <div class="row">
                             <div class="col">
                                 <div class="row">
+                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
+                                        <label><small>Apartment Type</small></label>
+                                        <select class="form-control search-slt" >
+                                            <option>
+                                                Family apartment
+                                            </option>
+                                            <option>
+                                                Student apartment
+                                            </option>
+                                        </select>
+                                    </div>
                                     <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
                                         <label><small>Furnished</small></label>
                                         <select class="form-control search-slt" >
@@ -126,157 +126,48 @@ Find the right apartment for you.</h2></div>
                                         <button type="button" class="btn btn-secondary wrn-btn" id="s-b">SEARCH</button>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-			<div class="container" id ="for"style ="display:none;" >
-                    <form action="#" method="post" novalidate="novalidate">
-                        <div class="row">
-                            <div class="col">
-                                <div class="row">
-								<div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
-                                        <label><small>Rooms</small></label>
-                                        <input type="number" min="2" max="10" placeholder="(2 - 10)" class="form-control search-slt">
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
-                                        <label><small>Room type</small></label>
-                                        <select class="form-control search-slt" >
-                                            <option>
-                                               Single room
-                                            </option>
-                                            <option>
-                                               Collective room
-                                            </option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
-                                        <label><small>Price ($) monthly</small></label>
-                                        <input type="number" min="50" max="400" placeholder="(50$ - 400$)" class="form-control search-slt">
-                                    </div>
-									 <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
-                                        <label><small>Region</small></label>
-                                        <select class="form-control search-slt" >
-                                            <option>
-                                              Old campus
-                                            </option>
-                                            <option>
-                                               New campus
-                                            </option>
-											<option>
-                                               Hijjawi campus
-                                            </option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
-                                        <label style="opacity: 0">1</label>
-                                        <button type="button" class="btn btn-secondary wrn-btn" id="s-b">SEARCH</button>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </form>
                 </div>
             </section>
-				<!-- Old table code
-					   <section class="search-sec">
-							<div class="container">
-								<div class="row">
 
-									<table class="table table-bordered">
-										<form action="#">
-											<div class="col">
-
-											</div>
-											<div class="col">
-
-											</div>
-											<div class="col">
-
-											</div>
-											<div class="col">
-
-											</div>
-											<div class="col">
-
-											</div>
-											<thead class="thead-bg">
-											<tr class="tr1">
-												<th>Apartment Type</th>
-												<th>Furnished Apartment</th>
-												<th>Space</th>
-												<th>Price ($) <small>monthly</small></th>
-												<th>Number Of Rooms</th>
-
-											</tr>
-											</thead>
-											<tbody>
-											<tr class="tr2">
-												<td>
-													<input type="radio" id="Family apartment" name="apartment" value="Family apartment">
-													<label>Family apartment</label><br>
-													<input type="radio" id="Student apartment" name="apartment" value="Student apartment">
-													<label>Student apartment</label>
-
-												</td>
-												<td>
-													<input type="radio" id="Yes" name="Furnished" value="Yes">
-													<label>Yes</label><br>
-													<input type="radio" id="No" name="Furnished" value="No">
-													<label>No</label>
-												</td>
-												<td>
-													<label for="quantity">(between 100m & 500m):</label><br>
-													<input type="number" id="quantity" name="quantity" min="100" max="500">
-												</td>
-												<td>
-													<label for="quantity">(between 100 $ & 4000 $):</label><br>
-													<input type="number" id="quantity" name="quantity" min="100" max="4000">
-												</td>
-												<td>
-													<label for="quantity">(between 3 <small>rooms</small> & 10<small>rooms</small> ):</label><br>
-													<input type="number" id="quantity" name="quantity" min="100" max="500">
-												</td>
-											</tr>
-										  </tbody>
-									</table>
-								</div>
-				 <br>
-			  <input type="submit" value="Search" class ="inputs">
-			</form>
-			</div>
-			</section>
-						-->
 <br><br><br>
+
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
      <div class="card-deck">
-   <a href="rentbage1.html"class="card" target="_blank">
-    <img src="image/al.jpg" class="card-img-top" alt="..." style=" height:19vw">
+   <a href="buypage1.html"class="card">
+
+    <img src="image/av.jpg" class="card-img-top" alt="..." style=" height:19vw">
     <div class="card-body card-bg">
-      <h5 class="card-title">Student apartment on the third floor <small>In Rafidia</small></h5>
-      <p class="card-text">The apartment contains four separate rooms - lounge - two bathrooms - balcony - kitchen  </p>
+      <h5 class="card-title">Student apartment on the second floor<br> <small>In Rafidia , opposite the university</small></h5>
+      <p class="card-text">The apartment contains four  rooms - two bathrooms-lounge  - balcony - kitchen  </p>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
-	</a>
-   <a href="rentbage2.html"class="card"target="_blank">
-    <img src="image/ax.jpg" class="card-img-top" alt="..." style=" height:19vw">
+
+  </a>
+   <a href="buypage2.html"class="card">
+    <img src="image/aw.jpg" class="card-img-top" alt="..." style=" height:19vw">
     <div class="card-body card-bg">
-      <h5 class="card-title">Family apartment on the ground floor <small>In Tell Street</small></h5>
-      <p class="card-text">The apartment contains four rooms - lounge - two bathrooms - kitchen - store in the basement - car park </p>
+      <h5 class="card-title">Student apartment on the fifth floor<br> <small>In Makhfia</small></h5>
+      <p class="card-text">The apartment contains three rooms -two bathrooms  - lounge - kitchen  - car park </p>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </a>
-   <a href="rentbage3.html"class="card"target="_blank">
-    <img src="image/ao.jpg" class="card-img-top" alt="..." style=" height:19vw">
+   <a href="buypage3.html"class="card">
+    <img src="image/aq.jpg" class="card-img-top" alt="..." style=" height:19vw">
     <div class="card-body card-bg">
-      <h5 class="card-title">Student apartment on the second floor  <small>In Rafidia, opposite the university</small></h5>
-      <p class="card-text">The apartment contains four rooms - two bathrooms - balcony - lounge - kitchen </p>
+      <h5 class="card-title">Student apartment on the second floor<br>  <small>In Rafidia</small></h5>
+      <p class="card-text">The apartment contains two rooms -  bathroom - balcony - lounge - kitchen </p>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </a>
@@ -284,28 +175,28 @@ Find the right apartment for you.</h2></div>
     </div>
     <div class="carousel-item">
       <div class="card-deck">
-   <a href="rentpage4.html"class="card"target="_blank">
-    <img src="image/aq1.png" class="card-img-top" alt="..." style=" height:19vw">
+   <a href="buypage10.html"class="card">
+    <img src="image/buy1.png" class="card-img-top" alt="..." style=" height:19vw">
     <div class="card-body card-bg">
-      <h5 class="card-title">Family Apartment on the second floor <small>In Juneid</small></h5>
-      <p class="card-text">The apartment contains 4 rooms - 2 bathrooms - kitchen - lounge - 2 balconies
+      <h5 class="card-title">Villa Family<br> <small>In New Nablus</small></h5>
+      <p class="card-text">The apartment contains 6 rooms - 5 bathrooms -   kitchen - 2 lounge - 3 balconies - car park
 	 </p>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
  </a>
-   <a href="rentpage5.html"class="card"target="_blank">
-    <img src="image/aq2.png" class="card-img-top" alt="..."style=" height:19vw">
+   <a href="buypage11.html"class="card">
+    <img src="image/buy2.png" class="card-img-top" alt="..."style=" height:19vw">
     <div class="card-body card-bg">
-      <h5 class="card-title">Family apartment on the first floor <small>In Tell Street</small></h5>
-      <p class="card-text">The apartment contains five rooms - lounge - 3 balconies - 3 bathrooms - kitchen - garden house </p>
+      <h5 class="card-title">Villa family<br><small>In Amrieh</small></h5>
+      <p class="card-text">The Villa contains 6 rooms -  2 lounge - 3 balconies - 6 bathrooms - kitchen - garden house </p>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </a>
- <a href="rentpage6.html"class="card"target="_blank">
-    <img src="image/aq3.png" class="card-img-top" alt="..."style=" height:19vw">
+ <a href="buypage12.html"class="card">
+    <img src="image/buy3.png" class="card-img-top" alt="..."style=" height:19vw">
     <div class="card-body card-bg">
-      <h5 class="card-title">Detached house for rent one floor  <small> In Bayt Wazan</small></h5>
-      <p class="card-text">It contains four rooms - lounge - kitchen - two bathrooms - a spacious house garden - car park - store</p>
+      <h5 class="card-title">Villa family <br><small> In Engineers Housing</small></h5>
+      <p class="card-text">The Villa contains four rooms -  lounge - kitchen - 5 bathrooms - a spacious house garden - car park </p>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </a>
@@ -321,7 +212,75 @@ Find the right apartment for you.</h2></div>
     <span class="sr-only">Next</span>
   </a>
 </div>
-<footer class="footer">
+
+
+
+
+<!--1,2,3--
+
+	<div class="card-deck">
+  <div class="card">
+    <img src="image/al.jpg" class="card-img-top" alt="..." style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Family Apartment on the second floor <small>In Rafidia</small></h5>
+      <p class="card-text">The apartment contains 4 rooms - 2 bathrooms - kitchen - lounge - 2 balconies
+	  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="image/ax.jpg" class="card-img-top" alt="..." style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Family apartment on the ground floor <small>In Tell Street</small></h5>
+      <p class="card-text">The apartment contains four rooms - lounge - two bathrooms - kitchen - store in the basement - car park  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="image/ao.jpg" class="card-img-top" alt="..." style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Student apartment on the second floor  <small>In Rafidia, opposite the university</small></h5>
+      <p class="card-text">The apartment contains four rooms - two bathrooms - balcony - lounge - kitchen  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div><br>
+
+
+	<div class="card-deck">
+  <div class="card">
+    <img src="image/av.jpg" class="card-img-top" alt="..." style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Student apartment on the third floor <small>In Rafidia</small></h5>
+      <p class="card-text">The apartment contains four separate rooms - lounge - two bathrooms - balcony - kitchen  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="image/ax.jpg" class="card-img-top" alt="..."style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Family apartment on the ground floor <small>In Tell Street</small></h5>
+      <p class="card-text">The apartment contains four rooms - lounge - two bathrooms - kitchen - store in the basement - car park  <a href="#"class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="image/ao.jpg" class="card-img-top" alt="..."style=" height:19vw">
+    <div class="card-body card-bg">
+      <h5 class="card-title">Student apartment on the second floor  <small>In Rafidia, opposite the university</small></h5>
+      <p class="card-text">The apartment contains four rooms - two bathrooms - balcony - lounge - kitchen  <a href="#" class="li">SHOW MORE</a></p>
+      <p class="card-text"><small >Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+        </div>
+<br><br><br>
+
+-->
+
+<!--a!-->
+
+        <footer class="footer">
             <div class="footer-left col-md-4 col-sm-6">
                 <p class="about">
                     <span> About Rest-E</span> Rest-E is an online platform specializing in residential property services, which aims to make it easier for all to buy. sell, or rent residential real-estate through our easy-to-use online website services.
@@ -363,19 +322,46 @@ Find the right apartment for you.</h2></div>
                     <a href="Home.html"> Home</a> |
                     <a href="Buy.html"> Buy</a> |
                     <a href="RENT.html"> Rent</a> |
-                    <a href="Form.html"> For Owners</a> |
+                    <a href="sell-Form.html"> For Owners</a> |
                     <a href="Contact.html"> Contact Us</a>
                 </p>
                 <p class="name"> Rest-E &copy; 2020</p>
             </div>
+
         </footer>
+
     </div>
+
+
+
+
+
+
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#"> info@rest-e.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+            <img src="image/logo.png" class="footer-logo">
+            <p class="menu">
+                <a href="Home.html"> Home</a> |
+                <a href="Buy.html"> Buy</a> |
+                <a href="RENT.html"> Rent</a> |
+                <a href="Form.html"> For Owners</a> |
+                <a href="Contact.html"> Contact Us</a>
+            </p>
+            <p class="name"> Rest-E &copy; 2020</p>
+        </div>
+    </footer>
+</div>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/fontawesome.min.js"></script>
-<script src="js/rent.js"></script>
 </body>
 </html>
