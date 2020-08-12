@@ -228,8 +228,6 @@ padding-bottom: 41%;
 }
 .bg-projects{
     position: relative;
-    background: url("../image/ax.jpg") 50% 0 no-repeat;
-    background-size: cover;
 }
 .owl-wrapper,.owl-wrapper-outer{
     flex-wrap: nowrap;
@@ -381,4 +379,8 @@ padding-bottom: 41%;
 }
 .cap > p{
     margin-left: 20%;
+}
+.det{
+    padding-top: 5%;
+    margin-bottom: 5%;
 }
