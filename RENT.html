@@ -117,7 +117,7 @@ Find the right apartment for you.</h2></div>
                                     </div>
                                     <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
                                         <label style="opacity: 0">1</label>
-                                        <button type="button" class="btn btn-secondary wrn-btn" id="s-b">SEARCH</button>
+                                        <button type="button" class="btn btn-secondary wrn-btn" id="s-b" onclick="filter_family()">SEARCH</button>
                                     </div>
                                 </div>
                             </div>
@@ -164,7 +164,7 @@ Find the right apartment for you.</h2></div>
                                     </div>
                                     <div class="col-lg-2 col-md-2 col-sm-12 p-0 text-center">
                                         <label style="opacity: 0">1</label>
-                                        <button type="button" class="btn btn-secondary wrn-btn" id="s-b">SEARCH</button>
+                                        <button type="button" class="btn btn-secondary wrn-btn s-b" onclick="filter_student()">SEARCH</button>
                                     </div>
                                 </div>
                             </div>
@@ -172,15 +172,15 @@ Find the right apartment for you.</h2></div>
                     </form>
                 </div>
             </section>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+<div id="carouselExampleIndicators" class="carousel slide"  data-ride="carousel">
+  <ol class="carousel-indicators" id="ind">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
      <div class="card-deck">
-   <a href="rentbage1.html"class="card" target="_blank">
+   <a href="rentbage1.html"class="card std" target="_blank">
     <img src="image/al.jpg" class="card-img-top" alt="..." style=" height:19vw">
     <div class="card-body card-bg">
       <h5 class="card-title">Student apartment on the third floor <small>In Rafidia</small></h5>
@@ -188,15 +188,15 @@ Find the right apartment for you.</h2></div>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
 	</a>
-   <a href="rentbage2.html"class="card"target="_blank">
-    <img src="image/ax.jpg" class="card-img-top" alt="..." style=" height:19vw">
+   <a href="rentbage2.html"class="card family"target="_blank">
+    <img src="image/ax.jpg" class="card-img-top " alt="..." style=" height:19vw">
     <div class="card-body card-bg">
       <h5 class="card-title">Family apartment on the ground floor <small>In Tell Street</small></h5>
       <p class="card-text">The apartment contains four rooms - lounge - two bathrooms - kitchen - store in the basement - car park </p>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </a>
-   <a href="rentbage3.html"class="card " target="_blank">
+   <a href="rentbage3.html"class="card std" target="_blank">
     <img src="image/ao.jpg" class="card-img-top" alt="..." style=" height:19vw">
     <div class="card-body card-bg">
       <h5 class="card-title">Student apartment on the second floor  <small>In Rafidia, opposite the university</small></h5>
@@ -208,7 +208,7 @@ Find the right apartment for you.</h2></div>
     </div>
     <div class="carousel-item">
       <div class="card-deck">
-   <a href="rentpage4.html"class="card"target="_blank">
+   <a href="rentpage4.html"class="card family"target="_blank">
     <img src="image/aq1.png" class="card-img-top" alt="..." style=" height:19vw">
     <div class="card-body card-bg">
       <h5 class="card-title">Family Apartment on the second floor <small>In Juneid</small></h5>
@@ -217,7 +217,7 @@ Find the right apartment for you.</h2></div>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
  </a>
-   <a href="rentpage5.html"class="card"target="_blank">
+   <a href="rentpage5.html"class="card family"target="_blank">
     <img src="image/aq2.png" class="card-img-top" alt="..."style=" height:19vw">
     <div class="card-body card-bg">
       <h5 class="card-title">Family apartment on the first floor <small>In Tell Street</small></h5>
@@ -225,7 +225,7 @@ Find the right apartment for you.</h2></div>
       <p class="card-text"><small >Last updated 3 mins ago</small></p>
     </div>
   </a>
- <a href="rentpage6.html"class="card"target="_blank">
+ <a href="rentpage6.html"class="card family"target="_blank">
     <img src="image/aq3.png" class="card-img-top" alt="..."style=" height:19vw">
     <div class="card-body card-bg">
       <h5 class="card-title">Detached house for rent one floor  <small> In Bayt Wazan</small></h5>
@@ -236,11 +236,11 @@ Find the right apartment for you.</h2></div>
 </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" id="prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" id="next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
